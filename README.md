@@ -1,6 +1,4 @@
-# hours
-
-Track hours in Markdown with Neovim and a weekly terminal view.
+A TUI for tracking hours in Markdown format.
 
 ## Setup
 
