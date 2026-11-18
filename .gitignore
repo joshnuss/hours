@@ -1,0 +1,23 @@
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor and OS files
+.nvimlog
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Local configuration
+.env
+.env.*
+!.env.example

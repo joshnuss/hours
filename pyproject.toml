@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "markdown-hours"
+version = "0.1.0"
+description = "A Vim-friendly Markdown hours journal with weekly TUI and clipboard export"
+requires-python = ">=3.9"
+
+[project.scripts]
+hours = "hours:main"
+
+[tool.setuptools]
+py-modules = ["hours"]
