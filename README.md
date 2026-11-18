@@ -4,11 +4,17 @@ Track hours in Markdown with Neovim and a weekly terminal view.
 
 ## Setup
 
-Add this directory to your PATH:
+Clone the repo:
 
 ```sh
-# in ~/.bashrc
-export PATH="/home/josh/Playground/hours:$PATH"
+git clone https://github.com/joshnuss/hours.git ~/hours
+cd ~/hours
+```
+
+Add this line to `~/.bashrc` or `~/.zshrc`, then open a new terminal:
+
+```sh
+export PATH="$HOME/hours:$PATH"
 ```
 
 ## Usage
